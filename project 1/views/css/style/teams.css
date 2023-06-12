@@ -1,0 +1,52 @@
+.itemList-teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+
+.container-y {
+    padding: 40px 0;
+}
+
+.row {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-item {
+    width: 150px;
+    height: 200px;
+    background-color: #3d8ba4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-item {
+    width: 400px;
+    height: 200px;
+    background-color: #6d717a;
+    padding: 10px 10px;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: #3d8ba4;
+    color: #fff;
+}
+
+.left-item img {
+    width: 150px;
+    height: 170px;
+}
+
+.left-item div {
+    color: #fff;
+    margin-top: 6px;
+}
+
+.right-item {
+    overflow-y: scroll;
+}

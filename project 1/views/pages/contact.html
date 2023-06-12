@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/titlenav.css">
+    <link rel="stylesheet" href="../css/style/contact.css">
+    <link rel="stylesheet" href="../css/style/services.css">
+</head>
+
+<body>
+    <div class="navigation-header">
+        <div class="nav-center">
+            <div class="log-left">
+                <img src="../assets/logo.JPG" alt="" class="logo">
+                <div class="dentist-name">
+                    <div class="top-name">SMILE</div>
+                    <div class="Bottom-name">DENIAL</div>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <a class="nav" href="./homePageIndex.html">HOME</a>
+                    <a class="nav" href="./servicesIndex.html">SERVICES</a>
+                    <a class="nav" href="./teams.html">TEAM</a>
+                    <a class="nav" href="javascript:;">CONTACT</a>
+                    <a class="nav" href="./book.html">BOOK</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="content-head">
+                <div>CONTACT US</div>
+            </div>
+            <div class="show-area">
+                <div class="map">
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.335550366748!2d-75.69060118448161!3d45.41735297910117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04e9dd4f0dfb%3A0x5f6d6f4f1f35b281!2sDentistry%20at%20Cornwall%20Dentisterie%20%C3%A0%20Cornwall!5e0!3m2!1sen!2sca!4v1636647057086!5m2!1sen!2sca"
+                        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.472583126547!2d-75.4791084844887!3d45.01451997909846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd2add6abce8191%3A0xb53be13d5be9632!2sDentistry%20at%20Cornwall%20Dentisterie%20%C3%A0%20Cornwall!5e0!3m2!1sen!2sca!4v1623492731691!5m2!1sen!2sca"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    <div>Dentistry at Cornwall Dentisterie à Cornwall</div>
+                </div>
+                <div class="card">
+                    <div class="card-item">
+                        <div class="doctor-name">name: Deng Haokai</div>
+                        <div class="information">information: Dr. Alan Tang can see patients in English, Cantonese, and Mandarin, so you, your elderly parents, and your young children don't have to worry about communication！</div>
+                    </div>
+                    <div class="card-item">
+                        <div class="address">address:1849 MERIVALE RD NEPEAN,ON K2G 1E3</div>
+                        <div class="contact">Phone:(613)727-4786</div>
+                        <div class="opening">Open Hours:Mon-Fri.09:00AM-08:30PM Sat.09:00AM-06:00PM Sun.09:00AM-06:00PM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <img src="../assets/logo.JPG" alt="">
+        </div>
+        <div class="footer-right">
+            <div>1849 MERIVALE RD NEPEAN,ON K2G 1E3,(613)727-4786</div>
+            <div>Mon-Fri.09:00AM-08:30PM Sat.09:00AM-06:00PM Sun.09:00AM-06:00PM</div>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script>
+        function initMap() {
+
+            // 创建一个新的地图实例
+            var map = new google.maps.Map(document.querySelector('map'), {
+                center: {
+                    lat: YOUR_LATITUDE,
+                    lng: YOUR_LONGITUDE
+                },
+                zoom: ZOOM_LEVEL
+            });
+
+            // 添加标记（可选）
+            var marker = new google.maps.Marker({
+                position: {
+                    lat: YOUR_LATITUDE,
+                    lng: YOUR_LONGITUDE
+                },
+                map: map,
+                title: 'Marker Title'
+            });
+        }
+        initMap();
+    </script>
+
+
+</body>
+
+</html>

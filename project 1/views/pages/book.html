@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/titlenav.css">
+    <link rel="stylesheet" href="../css/style/book.css">
+    <link rel="stylesheet" href="../css/style/services.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="./homePage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/mhDoLbDldZc3qpsJHpLogda//BVZbgYuw6kof4u2FrCedxOtgRZDTHgHUhOCVim" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navigation-header">
+        <div class="nav-center">
+            <div class="log-left">
+                <img src="../assets/logo.JPG" alt="" class="logo">
+                <div class="dentist-name">
+                    <div class="top-name">SMILE</div>
+                    <div class="Bottom-name">DENIAL</div>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <a class="nav" href="./homePageIndex.html">HOME</a>
+                    <a class="nav" href="./servicesIndex.html">SERVICES</a>
+                    <a class="nav" href="./teams.html">TEAM</a>
+                    <a class="nav" href="./contact.html">CONTACT</a>
+                    <a class="nav" href="javascript:;">BOOK</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content-head">
+            <div>Make Appointment</div>
+
+        </div>
+        <div class="content-form">
+            <form id="myForm">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name:</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address:</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="datePrefer" class="form-label">Date Preference:</label>
+                            <input type="date" class="form-control" id="datePrefer" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="timePrefer" class="form-label">Time Preference:</label>
+                            <input type="time" class="form-control" id="timePrefer" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="specialistPrefer" class="form-label">Specialist Preference:</label>
+                            <br>
+                            <input type="checkbox" id="checkbox1" name="checkbox1" value="Deng Haokai">
+                            <label for="checkbox1">Deng Haokai</label>
+                            <br>
+                            <br>
+                            <input type="checkbox" id="checkbox2" name="checkbox2" value="Edward">
+                            <label for="checkbox2">Edward</label>
+                            <br>
+                            <input type="checkbox" id="checkbox3" name="checkbox4" value="Jessica Nguyen">
+                            <label for="checkbox3">Jessica Nguyen</label>
+                            <br>
+                            <input type="checkbox" id="checkbox4" name="checkbox4" value="Emily Johnson">
+                            <label for="checkbox4">Emily Johnson</label>
+                            <br>
+                            <input type="checkbox" id="checkbox5" name="checkbox5" value="Michael Roberts">
+                            <label for="checkbox5">Michael Roberts</label>
+                            <br>
+                            <input type="checkbox" id="checkbox6" name="checkbox6" value="Sarah Thompson">
+                            <label for="checkbox6">Sarah Thompson</label>
+                            <br>
+                        </div>
+                        <div class="mb-3">
+                            <label for="caseDetails" class="form-label">Details of Your Case and Service Requirements:</label>
+                            <textarea class="form-control" id="caseDetails" rows="4" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="book-submit" onclick="submitForm(event)">BOOK</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-left">
+            <img src="../assets/logo.JPG" alt="">
+        </div>
+        <div class="footer-right">
+            <div>1849 MERIVALE RD NEPEAN,ON K2G 1E3,(613)727-4786 information and</div>
+            <div>Mon-Fri.09:00AM-08:30PM Sat.09:00AM-06:00PM Sun.09:00AM-06:00PM</div>
+        </div>
+    </div>
+    <script src="../js/book.js"></script>
+</body>
+
+</html>

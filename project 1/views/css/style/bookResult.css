@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.letter {
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+    background-color: #8b9098;
+    padding: 50px 70px;
+}
+
+.letter div {
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.done {
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #23416e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    color: #e3e494 !important;
+    cursor: pointer;
+}
